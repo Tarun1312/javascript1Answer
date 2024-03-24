@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery UI Components</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"/>
+    <script src=" https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="page1.css">
+    <script src="page1.js"></script>
+    
+</head>
+<body>
+
+<header>
+    <h1>jQuery UI Components</h1>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <h2>Interactions</h2>
+    <h3> Draggable Element:</h3>
+    <div id="draggable" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+       
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+    
+    <h3>Resizable Element:</h3> 
+    <div class="resizable ui-widget-content">Resize me</div>
+    <h3>Selectable List:</h3>
+    <ol class="selectable">
+        <li class="ui-widget-content">Delhi</li>
+        <li class="ui-widget-content">Gujrat</li>
+        <li class="ui-widget-content">Banglore</li>
+        <li class="ui-widget-content">Punjab</li>
+        <li class="ui-widget-content">Tamil Naidu</li>
+    </ol>
+</div>
+
+<!-- Widgets Section -->
+<div class="container">
+    <h2>Widgets</h2>
+    <h3>Accordion:</h3> 
+    <div class="accordion">
+        <h3>Why good food is important for humans?</h3>
+        <div><p>Good food is essential for humans as it serves as the fuel for our bodies,
+             providing the necessary nutrients for growth, development,
+              and overall well-being. Beyond mere sustenance, good food
+               plays a pivotal role in maintaining optimal health, 
+               bolstering immune function, and reducing the risk of chronic
+                diseases such as obesity, diabetes, and heart disease.
+                 Moreover, quality nutrition not only impacts physical 
+                 health but also influences cognitive function, mood 
+                 regulation, and even longevity.</p></div>
+        <h3>Effects of unheathy food:</h3>
+        <div><p>Consuming unhealthy food can have detrimental effects on 
+            various aspects of health. Foods high in sugar, saturated fats,
+             and processed ingredients can lead to weight gain, obesity, 
+             and an increased risk of chronic conditions such as type 2
+              diabetes, heart disease, and certain cancers. These foods
+               often lack essential nutrients, leading to deficiencies 
+               that can weaken the immune system, impair cognitive function, 
+               and hinder overall physical performance. Moreover, a diet rich
+                in unhealthy foods is associated with inflammation in the body,
+                 which can exacerbate existing health issues and contribute to 
+                 conditions like arthritis and digestive disorders. </p></div>
+    </div>
+    <h3>Autocomplete Input:</h3>
+    <input class="autocomplete" placeholder="Start searching..">
+ <br>
+    <h3>Datepicker Input:</h3> 
+    <input class="datepicker" placeholder="Select date...">
+    <h3>Slider Widget:</h3> 
+    <div id="slider">
+        <p>Value: <span id="sliderValue">0</span></p>
+      </div>
+    
+</div>
+
+<!-- Effects Section -->
+<div class="container">
+    <h2>Effects</h2>
+    <!-- Button for Show & Hide Effect -->
+    <button class="effect-show-hide">Show & Hide</button>
+    <!-- Button for Explode Effect -->
+    <button class="effect-explode">Explode</button>
+    <!-- Button for Fade-in & Fade-out Effect -->
+    <button class="effect-fade">Fade-in & Fade-out</button>
+    <!-- Button for Color Animation Effect -->
+    <button class="effect-color">Color animation</button>
+    <!-- Element for Effect Demonstration -->
+    <div class="effect-demo">Effect Demo</div>
+</div>
+
+
+</body>
+</html>

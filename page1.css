@@ -1,0 +1,76 @@
+
+  body {
+    background-color: #f0f0f0; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+  }
+
+  header {
+    background-color: #007bff; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+  }
+
+
+
+  .container {
+    margin-bottom: 20px;
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+  .container h2 {
+    color: #007bff; 
+    margin-bottom: 20px; 
+  }
+
+  
+  
+  .container {
+    margin-bottom: 20px;
+  }
+   .resizable, .selectable, .accordion, .autocomplete, .datepicker, .slider, .effect {
+    margin-bottom: 20px;
+  }
+  
+  .ui-selected {
+    background: #ccc;
+  }
+  .effect-demo {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #draggable { margin-bottom: 20px;
+    width: 100px; 
+    height: 100px; }
+
+#droppable {  width: 200px;
+  height: 150px;
+  padding: 10em;
+   margin-left: 350px;
+  ;
+   }
+
+
+  
+  #slider {
+    width: 100%;
+  }
+  
+  p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+
+  
